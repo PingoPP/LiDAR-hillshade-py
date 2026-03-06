@@ -3,7 +3,7 @@ import numpy as np
 import rasterio as rio 
 import matplotlib.pyplot as plt 
 
-dtm_data = rio.open(os.path.join("data","C:\\Users\\jakad\\Documents\\Jaka.tif"))
+dtm_data = rio.open(os.path.join("data","upload document .tif"))
 
 ext = [
     dtm_data.bounds.left,
@@ -41,3 +41,4 @@ im = ax.imshow(hs, cmap="Greys", extent=ext)
 plt.colorbar(im, ax=ax)
 ax.set_title("Hillshade")
 plt.show()
+

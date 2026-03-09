@@ -13,7 +13,6 @@ ext = [
 ]
 
 def hillshade(dtm, azimuth=350, angle_altitude=45, cellsize=0.5):
-    azimuth = 360.0 - azimuth
 
     azimuth_rad = np.radians(azimuth)
     altitude_rad = np.radians(angle_altitude)
@@ -41,4 +40,5 @@ im = ax.imshow(hs, cmap="Greys", extent=ext)
 plt.colorbar(im, ax=ax)
 ax.set_title("Hillshade")
 plt.show()
+
 

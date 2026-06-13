@@ -23,3 +23,21 @@ There is an example of an archaeological site in Slovenia known as Tonovcov grad
 </figure>
 
 <br><br>
+
+
+Multidirectional hillshade 
+Producing multiple hillshade outputs by illuminating the surface from different directions and combining them into RGB channels (red, green, blue) enhances the visualization of topography [1].
+<figure>
+          <img <img width="945" height="760" alt="image" src="https://github.com/user-attachments/assets/9380d4df-cd0b-40b8-9e32-2bd9e20fdb45" />
+          <figcaption> Figure 3: Multidirectional hillshade of Kamnik, generated using <code>multidirectional_hillshade.py</code></figcaption>
+</figure>
+
+
+
+The basic hillshade and multidirectional hillshade share the same underlying formula. You can adjust the slope calculation and the sin/cos terms in the shading formula to experiment with different visualization effects!
+
+
+
+
+SOURCE: 
+[1] https://rvt-py.readthedocs.io/en/latest/listofvis_hillshade.html

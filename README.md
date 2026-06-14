@@ -35,7 +35,7 @@ Producing multiple hillshade outputs by illuminating the surface from different 
 
 <figure>
           <img <img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/decd854d-3504-4e2b-90a8-cdef31528e84" />
-          <figcaption> Figure 4: Multidirectional hillshade of Archaeological site Kekec in Nova Gorica. Prehistoric and Late Antique buildings, possibly associated with a nearby tomb [2]. </figcaption>
+          <figcaption> Figure 4: Multidirectional hillshade of Archaeological site Kekec in Nova Gorica with some noise. Prehistoric and Late Antique buildings, possibly associated with a nearby tomb [2]. </figcaption>
 
 </figure>
 <br><br>

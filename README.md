@@ -40,7 +40,7 @@ Producing multiple hillshade outputs by illuminating the surface from different 
 </figure>
 <br><br>
 
-The archaeological site reveals potential prehistoric and Late Antique structures, possibly including a nearby tomb. For the visualization, the original slope calculation in <code>multidirectional_hillshade.py</code> was modified from <code>x*x + y*y</code> to <code>x**2 + y**2</code>. In addition, cosine-based shading was applied throughout, and the illumination azimuths were set to 315°, 0°, and 45°. The implemented changes are documented in comments within <code>multidirectional_hillshade.py</code> (#).
+The archaeological site reveals potential prehistoric and Late Antique structures, possibly including a nearby tomb. In addition, cosine-based shading was applied throughout, and the illumination azimuths were set to 315°, 0°, and 45°. The implemented changes are documented in comments within <code>multidirectional_hillshade.py</code> (#).
 
 
 The basic hillshade and multidirectional hillshade share the same underlying formula. You can adjust the slope calculation and the sin/cos terms in the shading formula to experiment with different visualization effects!

@@ -33,6 +33,14 @@ Producing multiple hillshade outputs by illuminating the surface from different 
 </figure>
 <br><br>
 
+<figure>
+          <img <img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/decd854d-3504-4e2b-90a8-cdef31528e84" />
+          <figcaption> Figure 4: Multidirectional hillshade of Archaeological site Kekec in Nova Gorica. Prehistoric and Late Antique buildings, possibly associated with a nearby tomb [2]. </figcaption>
+
+</figure>
+<br><br>
+
+The archaeological site reveals potential prehistoric and Late Antique structures, possibly including a nearby tomb. For the visualization, the original slope calculation in <code>multidirectional_hillshade.py</code> was modified from <code>x*x + y*y</code> to <code>x**2 + y**2</code>. In addition, cosine-based shading was applied throughout, and the illumination azimuths were set to 315°, 0°, and 45°. The implemented changes are documented in comments within <code>multidirectional_hillshade.py</code> (#).
 
 
 The basic hillshade and multidirectional hillshade share the same underlying formula. You can adjust the slope calculation and the sin/cos terms in the shading formula to experiment with different visualization effects!
@@ -46,4 +54,5 @@ The basic hillshade and multidirectional hillshade share the same underlying for
 
 SOURCE: 
 <br><br>
-[1] https://rvt-py.readthedocs.io/en/latest/listofvis_hillshade.html
+[1] https://rvt-py.readthedocs.io/en/latest/listofvis_hillshade.html (13.6.2026).
+[2] https://geohub.gov.si/ghapp/giskd/ (14.6.2026).

@@ -54,5 +54,5 @@ The basic hillshade and multidirectional hillshade share the same underlying for
 
 SOURCE: 
 <br><br>
-[1] https://rvt-py.readthedocs.io/en/latest/listofvis_hillshade.html (13.6.2026).
+[1] https://rvt-py.readthedocs.io/en/latest/listofvis_hillshade.html (13.6.2026). <br><br>
 [2] https://geohub.gov.si/ghapp/giskd/ (14.6.2026).
